@@ -1,0 +1,12 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<h3 th:text="'Number 1 = ' + ${message.getNum1()} " />
+<h3 th:text="'Operator = ' + ${message.getOp()} " />
+<h3 th:text="'Number 2 = ' + ${message.getNum2()} " />
+<h3 th:text="'Result = ' + ${message.getResult()} " />
+</body>
+</html>
